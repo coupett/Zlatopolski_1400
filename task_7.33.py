@@ -1,0 +1,6 @@
+jan = list(map(float, input().split()))
+mar = list(map(float, input().split()))
+avg_jan = sum(jan) / len(jan)
+avg_mar = sum(mar) / len(mar)
+print("Январь:", avg_jan)
+print("Март:", avg_mar)

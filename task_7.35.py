@@ -1,0 +1,6 @@
+class1 = list(map(int, input().split()))
+class2 = list(map(int, input().split()))
+avg1 = sum(class1) / len(class1)
+avg2 = sum(class2) / len(class2)
+print("Класс 1:", avg1)
+print("Класс 2:", avg2)
