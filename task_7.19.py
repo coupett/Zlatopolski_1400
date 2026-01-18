@@ -1,0 +1,6 @@
+feb_this_year = list(map(float, input().split()))
+total_this = sum(feb_this_year)
+print("Введите осадки за февраль прошлого года:")
+feb_last_year = list(map(float, input().split()))
+total_last = sum(feb_last_year)
+print(total_this > total_last)
